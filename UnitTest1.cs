@@ -31,5 +31,20 @@ namespace CapInvoiceTest
 
             Assert.AreEqual(actual, expected);
         }
+
+        [TestMethod]
+        public void GivenMultipleRidesShouldReturnInvoiceSummary()
+        {
+            // double expected = 60;
+            //  creating instance of invoice generator
+            InvoiceGenerator obj = new InvoiceGenerator(RideType.PREMIUM);
+            Ride[] rides = { new Ride(2.0, 5), new Ride(0.1, 1) };
+            InvoiceSummary expected = new InvoiceSummary(rides.Length, 47);
+            // generating summary of all rides
+            InvoiceSummary actual = obj.Calculate_Fare(rides);
+
+            //actual.Equals(expected);
+            Assert.AreEqual(actual, expected);
+        }
     }
 }

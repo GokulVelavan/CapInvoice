@@ -13,7 +13,7 @@ namespace Cap_Invoice
         }
         public enum Exceptiontype
         {
-            INVALIDE_DISTANCE, INVALIDE_TIME, NULLRIDES, INVALID_USER_ID, INVALIDE_RIDETYPE
+            INVALIDE_DISTANCE, INVALIDE_TIME, NULLRIDES, INVALID_USER_ID, INVALIDE_RIDETYPE, NULL_RIDES
         }
     }
 }
