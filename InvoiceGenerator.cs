@@ -14,7 +14,7 @@ namespace Cap_Invoice
         private readonly int COST_PER_TIME;
         private readonly double MINIMUM_FARE;
 
-        //creating new instance of the InvoiceGenerator class
+    
         public InvoiceGenerator(RideType rideType)
         {
             this.rideType = rideType;
@@ -40,7 +40,6 @@ namespace Cap_Invoice
             }
         }
 
-        //calculate the fare
         public double calculateFare(double distance, int time)
         {
             double totalFare = 0;
@@ -62,6 +61,26 @@ namespace Cap_Invoice
             return Math.Max(totalFare, MINIMUM_FARE);
         }
 
-    
+        public double Calculatefare(Ride[] rides)
+        {
+            double totalFare = 0;
+            try
+            {
+                // calculating total fare
+                foreach (Ride ride in rides)
+                {
+                    totalFare += this.calculateFare(ride.distance, ride.time);
+                }
+            }
+            catch (CabInvoiceException)
+            {
+                if (rides == null)
+                {
+                    throw new CabInvoiceException(CabInvoiceException.Exceptiontype.NULLRIDES, "no rides found");
+                }
+            }
+            return totalFare;
+        }
+
     }
 }
