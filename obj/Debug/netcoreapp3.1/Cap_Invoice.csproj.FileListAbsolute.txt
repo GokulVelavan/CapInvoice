@@ -1,0 +1,13 @@
+C:\Users\INFINITY\source\repos\Cap_Invoice\bin\Debug\netcoreapp3.1\Cap_Invoice.exe
+C:\Users\INFINITY\source\repos\Cap_Invoice\bin\Debug\netcoreapp3.1\Cap_Invoice.deps.json
+C:\Users\INFINITY\source\repos\Cap_Invoice\bin\Debug\netcoreapp3.1\Cap_Invoice.runtimeconfig.json
+C:\Users\INFINITY\source\repos\Cap_Invoice\bin\Debug\netcoreapp3.1\Cap_Invoice.runtimeconfig.dev.json
+C:\Users\INFINITY\source\repos\Cap_Invoice\bin\Debug\netcoreapp3.1\Cap_Invoice.dll
+C:\Users\INFINITY\source\repos\Cap_Invoice\bin\Debug\netcoreapp3.1\Cap_Invoice.pdb
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.csproj.AssemblyReference.cache
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.AssemblyInfoInputs.cache
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.AssemblyInfo.cs
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.csproj.CoreCompileInputs.cache
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.dll
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.pdb
+C:\Users\INFINITY\source\repos\Cap_Invoice\obj\Debug\netcoreapp3.1\Cap_Invoice.genruntimeconfig.cache
