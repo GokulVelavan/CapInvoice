@@ -82,5 +82,26 @@ namespace Cap_Invoice
             return totalFare;
         }
 
+        public InvoiceSummary Calculate_Fare(Ride[] rides)
+        {
+            double totalFare = 0;
+            try
+            {
+                foreach (Ride ride in rides)
+                {
+                    totalFare += this.calculateFare(ride.distance, ride.time);
+                }
+            }
+            catch
+            {
+                if (rides == null)
+                {
+                    throw new CabInvoiceException(CabInvoiceException.Exceptiontype.NULL_RIDES, "No Rides Found");
+                }
+            }
+            //returns invoice summary object
+            return new InvoiceSummary(rides.Length, totalFare);
+        }
+
     }
 }
